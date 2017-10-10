@@ -21,10 +21,11 @@ toc:
   - docs/concepts/architecture/nodes.md
   - docs/concepts/architecture/master-node-communication.md
 
-- title: Extending the Kubernetes API
+- title: Extending Kubernetes
   section:
   - docs/concepts/api-extension/custom-resources.md
   - docs/concepts/api-extension/apiserver-aggregation.md
+  - docs/concepts/service-broker/service-catalog.md
 
 - title: Containers
   section:
@@ -70,6 +71,7 @@ toc:
   - docs/concepts/services-networking/ingress.md
   - docs/concepts/services-networking/network-policies.md
   - docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md
+  - docs/concepts/
 
 - title: Storage
   section:
