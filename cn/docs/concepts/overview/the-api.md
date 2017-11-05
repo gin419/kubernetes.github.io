@@ -93,5 +93,3 @@ Kubernetes实现了另一种基于Protobuf的序列化格式，该格式主要�
 ## 启用组中资源
 
 DaemonSets，Deployments，HorizontalPodAutoscalers，Ingress，Jobs和ReplicaSets是默认启用的。 其他扩展资源可以通过在apiserver上设置 **`--runtime-config`** 来启用。**`--runtime-config`** 接受逗号分隔的值。
-
-例如：要禁用部署和入口，请设置 **`--runtime-config=extensions/v1beta1/deployments=false,extensions/v1beta1/ingress=false`**
